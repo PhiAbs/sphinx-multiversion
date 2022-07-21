@@ -19,6 +19,8 @@ from sphinx import project as sphinx_project
 from . import sphinx
 from . import git
 
+logging.basicConfig(level=logging.DEBUG)
+
 
 @contextlib.contextmanager
 def working_dir(path):
