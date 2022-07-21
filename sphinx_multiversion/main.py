@@ -18,6 +18,9 @@ from sphinx import project as sphinx_project
 from . import sphinx
 from . import git
 
+logging.basicConfig(level=logging.DEBUG)
+
+
 
 def main(argv=None):
     if not argv:
